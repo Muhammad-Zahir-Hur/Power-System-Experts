@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+
+		<title>Power System Experts</title>
+		<link rel="stylesheet" href="./output.css" />
+	</head>
+	<body class="p-0 scroll-smooth">
+		<header class="min-h-[100vh] w-full">
+			<nav
+				class="sticky top-0 flex justify-start gap-[5%] items-center py-5 px-5">
+				<img
+					src="logo.png"
+					alt="Power System Experts"
+					class="w-[80%] sm:w-60" />
+				<div
+					class="block md:hidden w-10 h-5 cursor-pointer p-2 absolute top-12 right-0"
+					id="menu-icon">
+					<img src="./images/menu.png" alt="" />
+				</div>
+				<!-- Menu for mobiles -->
+				<div
+					class="menu flex md:hidden flex-col absolute left-0 w-full items-center pt-10 bg-white h-[100vh] top-0 transition-transform transform -translate-y-full">
+					<div
+						class="p-2 cursor-pointer absolute top-12 right-0 h-5 w-10"
+						id="close">
+						❌
+					</div>
+					<a href="#" class="nav-link">HOME</a>
+					<a href="#" class="nav-link">BLOGS</a>
+					<a href="#" class="nav-link">SERVICES</a>
+					<a href="#" class="nav-link">ABOUT</a>
+					<a href="#" class="nav-link">CONTACT</a>
+				</div>
+				<!-- Menu for PCs and Tablets -->
+				<div class="hidden md:flex w-[60%]">
+					<a href="/" class="nav-link">HOME</a>
+					<a href="/pages/bolgs" class="nav-link">BLOGS</a>
+					<a href="/pages/" class="nav-link">SERVICES</a>
+					<a href="/pages/" class="nav-link">ABOUT</a>
+					<a href="/pages/" class="nav-link">CONTACT</a>
+				</div>
+			</nav>
+
+			<!-- HERO section -->
+			<section
+				class="flex flex-col md:flex-row justify-center items-center w-[90%] mt-0">
+				<div
+					class="flex flex-col justify-center items-center h-full w-full basis-1/2 animate-on-scroll">
+					<h1 class="section-main-heading">WE DELIVER EXCELENCE</h1>
+					<p
+						class="font-['Montserrat'] text-xl md:text-2xl font-bold text-center mb-4">
+						We are power system engineering consultants specializing in
+						modeling, simulation, and analysis.
+					</p>
+					<a class="btn-primary"> CONTACT </a>
+				</div>
+				<div class="w-full h-full basis-1/2 animate-on-scroll">
+					<img src="images/hero-image.png" class="hidden md:block" alt="" />
+				</div>
+			</section>
+		</header>
+
+		<br />
+		<!-- Blogs -->
+		<section>
+			<div>
+				<h1 class="section-main-heading mb-20 animate-on-scroll">BLOGS</h1>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+					<div class="blog animate-on-scroll">
+						<h2>This Will be the title of the blog</h2>
+						<p>
+							Since the summer 2023, we have made to achieve out target of $25b
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+							deserunt expedita at aut incidunt possimus beatae iure blanditiis.
+							Molestias officiis ut repudiandae eum nam, deleniti delectus.
+							Ipsum, eius quod.
+						</p>
+					</div>
+
+					<div class="blog animate-on-scroll delay-100">
+						<h2>This Will be the title of the blog</h2>
+						<p>
+							Since the summer 2023, we have made to achieve out target of $25b
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+							deserunt expedita at aut incidunt possimus beatae iure blanditiis.
+							Molestias officiis ut repudiandae eum nam, deleniti delectus.
+							Ipsum, eius quod.
+						</p>
+					</div>
+
+					<div class="blog animate-on-scroll delay-200">
+						<h2>This Will be the title of the blog</h2>
+						<p>
+							Since the summer 2023, we have made to achieve out target of $25b
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+							deserunt expedita at aut incidunt possimus beatae iure blanditiis.
+							Molestias officiis ut repudiandae eum nam, deleniti delectus.
+							Ipsum, eius quod.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Services  -->
+		<section class="with-bg">
+			<div>
+				<h1 class="section-main-heading animate-on-scroll">OUR SERVICES</h1>
+				<p>
+					We specialize in a wide range of power system studies and provide
+					valuable services to our clients. We perform power system planning
+					studies, Grid interconnection studies, Model quality and acceptance
+					test studies, Substation design and insulation coordination studies,
+					Protection Coordination Studies and and Operational Studies.
+				</p>
+			</div>
+		</section>
+		<!-- List of services -->
+		<section>
+			<div
+				class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center mt-20">
+				<div class="service animate-on-scroll">
+					<h2>Grid management</h2>
+					<p>
+						Developers, OEMs and Financiers on utility scale generators (wind,
+						solar & battery)
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-75">
+					<h2>Protection Studies</h2>
+					<p>
+						Developers, OEMs and Financiers on utility scale generators (wind,
+						solar & battery)
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-150">
+					<h2>Power System Design and Engineering</h2>
+					<p>
+						Developers, OEMs and Financiers on utility scale generators (wind,
+						solar & battery)
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-200">
+					<h2>Network Planning</h2>
+					<p>
+						Network Service Providers and Operators to support transition to
+						lower carbon grids
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-300">
+					<h2>Strategic advice</h2>
+					<p>
+						Regulatory, Market and Government Bodies providing strategic and
+						technical advice to support policy change
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-100">
+					<h2>Operational Studies</h2>
+					<p>
+						Developers, OEMs and Financiers on utility scale generators (wind,
+						solar & battery)
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About US section -->
+		<section class="with-bg">
+			<div>
+				<h1 class="section-main-heading animate-on-scroll">About Us</h1>
+				<p>
+					Power System Experts is a power system engineering consultancy
+					specializing in modelling, simulation, and analysis. A team of 10
+					power system engineers with extensive experience, including extensive
+					design of utility-scale renewable-generating systems. Our team has
+					global exposure and have worked on many projects collectively within
+					USA, Canada, Australia, South East Asia, the Middle East and Africa.
+				</p>
+			</div>
+		</section>
+
+		<!-- About us details -->
+
+		<section>
+			<div
+				class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center mt-20">
+				<div class="service animate-on-scroll">
+					<h2>Our Mission</h2>
+					<p>
+						Our Mission is enable our clients for establishing safer, reliable
+						and cleaner power systems across the planet by providing them with
+						expert advice, capacity building and innovative ways of problem
+						solving.
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-75">
+					<h2>Our Vision</h2>
+					<p>
+						Our vision is to be a globally recognized power system solutions
+						provider.
+					</p>
+				</div>
+
+				<div class="service animate-on-scroll delay-150">
+					<h2>What we can do for You</h2>
+					<p>
+						Power System Experts (PSE) provides a wide range of services for
+						both static and dynamic power system analysis and connection
+						studies. We can assist in operational performance and future
+						planning, determine optimum operating configurations, and compare
+						alternatives to support capital projects operations and
+						expenditures. Our expertise is in providing innovative, reliable and
+						cost-effective engineering services that exceed the client's
+						expectations. We offer the most up-to-date, timely solutions and
+						power system analysis methodologies available to our clients. We
+						work across various industry sectors, providing power grid solutions
+						to the sectors associated with mining, oil and gas, renewable
+						energies, and utility transmission and distribution providers.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Us -->
+
+		<section class="with-bg">
+			<div>
+				<h1 class="section-main-heading animate-on-scroll">Contact Us</h1>
+				<p>
+					You can reach us by sending us an email with your request at
+					contactus@psystemexp.com. Alternatively, you can fill the contact form
+					below and submit so that we could reach to you in response.
+				</p>
+			</div>
+		</section>
+		<!-- Input fields -->
+
+		<section class="flex flex-col px-5">
+			<div class="input-div">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Name" />
+			</div>
+
+			<div class="input-div">
+				<label for="email">Your Email</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Example@abc.com" />
+			</div>
+
+			<div class="input-div">
+				<label for="message">Your Message</label>
+				<textarea
+					type="message"
+					name="message"
+					id="message"
+					placeholder="Hello, I wanted to..."
+					cols="30"
+					rows="10">
+				</textarea>
+			</div>
+			<div class="input-div">
+				<button
+					id="send-message"
+					class="btn-primary w-full md:w-40 ml-0 md:ml-auto">
+					Send
+				</button>
+			</div>
+		</section>
+
+		<div class="w-full border border-[color:var(--primary)]"></div>
+		<!-- Footer -->
+
+		<footer class="bg-[color:var(--)] gap-40 py-5 md:py-10 h-auto md:h-[80vh]">
+			<div
+				class="flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-center">
+				<!-- logo -->
+				<div class="flex justify-center items-center">
+					<img src="logo.png" alt="Power System Experts" class="" />
+				</div>
+				<!-- links -->
+				<div class="flex flex-col justify-center items-end grow gap-2">
+					<div class="flex flex-col items-center justify-center">
+						<a href="#" class="footer-link">HOME</a>
+						<a href="#" class="footer-link">BLOGS</a>
+						<a href="#" class="footer-link">SERVICES</a>
+						<a href="#" class="footer-link">ABOUT</a>
+						<a href="#" class="footer-link">CONTACT</a>
+					</div>
+					<div class="icons flex gap-2 justify-center items-center">
+						<a href="">
+							<img
+								class="w-7 hover:scale-125 transition"
+								src="./images/facebook.png"
+								alt="" />
+						</a>
+						<a href="">
+							<img
+								class="w-7 hover:scale-125 transition"
+								src="./images/facebook.png"
+								alt="" />
+						</a>
+						<a href="">
+							<img
+								class="w-7 hover:scale-125 transition"
+								src="./images/facebook.png"
+								alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+		<script>
+			(function () {
+				emailjs.init({
+					publicKey: "vYftS1JZlIYrBfAvu",
+				});
+			})();
+
+			function sendMessage() {
+				var params = {
+					form_name: document.getElementById("name").value,
+					email_id: document.getElementById("email").value,
+					message: document.getElementById("message").value,
+				};
+				console.log(params);
+
+				emailjs
+					.send("service_8vi6s2f", "template_omf0v3c", params)
+					.then((response) => {
+						alert("Message Sent Successfully");
+						document.getElementById("name").value = "";
+						document.getElementById("email").value = "";
+						document.getElementById("message").value = "";
+					})
+					.catch((error) => {
+						alert("An error occured, while sending the message");
+					});
+			}
+
+			sendButton = document.getElementById("send-message");
+			sendButton.addEventListener("click", sendMessage);
+
+			let menuIcon = document.querySelector("#menu-icon");
+			let menu = document.querySelector(".menu");
+			let closeButton = document.querySelector("#close");
+
+			menuIcon.addEventListener("click", () => {
+				menu.classList.remove("-translate-y-full");
+			});
+
+			closeButton.addEventListener("click", () => {
+				menu.classList.add("-translate-y-full");
+			});
+
+			let observer = new IntersectionObserver((entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add("show");
+					} else {
+						entry.target.classList.remove("show");
+					}
+				});
+			});
+
+			const hiddenElements = document.querySelectorAll(".animate-on-scroll");
+			hiddenElements.forEach((el) => observer.observe(el));
+		</script>
+	</body>
+</html>
